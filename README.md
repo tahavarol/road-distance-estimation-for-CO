@@ -227,13 +227,6 @@ while some Python objects in this repository store coordinates as:
 Make sure the appropriate ordering is used when constructing OSRM
 requests.
 
-The road-network distances are **directed**. In particular,
-
-\[ d(i,j) `\neq `{=tex}d(j,i) \]
-
-may occur because of one-way streets and other road-network
-restrictions.
-
 Large grid resolutions can also require substantial memory because
 centroid-to-centroid distance matrices are dense.
 
